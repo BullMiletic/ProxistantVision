@@ -1,0 +1,901 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/jensa/Dropbox/Kunder/Dragan/kontroller/kontroller/kontroller.sch</source>
+    <date>2021 July 01, Thursday 00:26:39</date>
+    <tool>Eeschema (5.1.9-0-10_14)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>kontroller.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/OutStep/" tstamps="/60FA01AF/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>protected_output.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/XLR1/" tstamps="/60FAB8E8/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>XLR_5pin_input.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/OutDir/" tstamps="/60F9F677/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>protected_output.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/OutEnable/" tstamps="/60F9CBE2/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>protected_output.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="POWER5">
+      <value>5V_input</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFGR">Phoenix</field>
+        <field name="MPN">1729128</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F10670</tstamp>
+    </comp>
+    <comp ref="POWER24">
+      <value>24V_input</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFGR">Phoenix</field>
+        <field name="MPN">1729128</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F11B27</tstamp>
+    </comp>
+    <comp ref="C110">
+      <value>100uf 50V</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">ECE-A1HN101U</field>
+      </fields>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F19B31</tstamp>
+    </comp>
+    <comp ref="C101">
+      <value>0.1uf ceramic</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFGR">Kemet</field>
+        <field name="MPN">C322C104K5R5TA</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F1C346</tstamp>
+    </comp>
+    <comp ref="C106">
+      <value>0.1uf ceramic</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFGR">Kemet</field>
+        <field name="MPN">C322C104K5R5TA</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F1C64A</tstamp>
+    </comp>
+    <comp ref="R102">
+      <value>R10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F2B065</tstamp>
+    </comp>
+    <comp ref="R101">
+      <value>R3.9k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F2B9DA</tstamp>
+    </comp>
+    <comp ref="INDEX1">
+      <value>index_input</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFGR">Phoenix</field>
+        <field name="MPN">1729131</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F2C587</tstamp>
+    </comp>
+    <comp ref="U101">
+      <value>4N25</value>
+      <footprint>Package_DIP:DIP-6_W7.62mm</footprint>
+      <datasheet>https://www.vishay.com/docs/83725/4n25.pdf</datasheet>
+      <libsource lib="Isolator" part="4N25" description="DC Optocoupler Base Connected, Vce 30V, CTR 20%, Viso 2500V, DIP6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F13F7A</tstamp>
+    </comp>
+    <comp ref="XA101">
+      <value>Arduino_Micro_Socket</value>
+      <footprint>Arduino:Arduino_Micro_Socket</footprint>
+      <datasheet>https://store.arduino.cc/arduino-micro</datasheet>
+      <libsource lib="arduino" part="Arduino_Micro_Socket" description="Socket for Arduino Micro"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F38E47</tstamp>
+    </comp>
+    <comp ref="C105">
+      <value>100uf 50V</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">ECE-A1HN101U</field>
+      </fields>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F74D98</tstamp>
+    </comp>
+    <comp ref="C104">
+      <value>100uf 50V</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">ECE-A1HN101U</field>
+      </fields>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F773EA</tstamp>
+    </comp>
+    <comp ref="C103">
+      <value>100uf 50V</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">ECE-A1HN101U</field>
+      </fields>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F780F1</tstamp>
+    </comp>
+    <comp ref="C102">
+      <value>100uf 50V</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">ECE-A1HN101U</field>
+      </fields>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F78AD4</tstamp>
+    </comp>
+    <comp ref="C109">
+      <value>100uf 50V</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">ECE-A1HN101U</field>
+      </fields>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F7AF54</tstamp>
+    </comp>
+    <comp ref="C108">
+      <value>100uf 50V</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">ECE-A1HN101U</field>
+      </fields>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F7BBA3</tstamp>
+    </comp>
+    <comp ref="C107">
+      <value>100uf 50V</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">ECE-A1HN101U</field>
+      </fields>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F7C30C</tstamp>
+    </comp>
+    <comp ref="JP101">
+      <value>Jumper_3_Bridged12</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jumper" part="Jumper_3_Bridged12" description="Jumper, 3-pole, pins 1+2 closed/bridged"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FA22EE</tstamp>
+    </comp>
+    <comp ref="U102">
+      <value>L7805</value>
+      <footprint>Package_TO_SOT_THT:TO-220F-3_Vertical</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</datasheet>
+      <fields>
+        <field name="MPN">DNP</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="L7805" description="Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60DBFB3A</tstamp>
+    </comp>
+    <comp ref="H101">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_4.3mm_M4_DIN965_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60DD6935</tstamp>
+    </comp>
+    <comp ref="H102">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_4.3mm_M4_DIN965_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60DD6C54</tstamp>
+    </comp>
+    <comp ref="H103">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_4.3mm_M4_DIN965_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60DD700E</tstamp>
+    </comp>
+    <comp ref="H104">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_4.3mm_M4_DIN965_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60DD735E</tstamp>
+    </comp>
+    <comp ref="LinearActuator101">
+      <value>Screw_Terminal_01x05</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-5-5.08_1x05_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFGR">Phoenix</field>
+        <field name="MPN">1729157</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x05" description="Generic screw terminal, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60DE008D</tstamp>
+    </comp>
+    <comp ref="OUT201">
+      <value>24V_input</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFGR">Phoenix</field>
+        <field name="MPN">1729128</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/OutStep/" tstamps="/60FA01AF/"/>
+      <tstamp>60F9E443</tstamp>
+    </comp>
+    <comp ref="D201">
+      <value>D</value>
+      <footprint>Diode_THT:D_DO-15_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFGR">Littelfuse</field>
+        <field name="MPN">SA5.0A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/OutStep/" tstamps="/60FA01AF/"/>
+      <tstamp>60F9E453</tstamp>
+    </comp>
+    <comp ref="J701">
+      <value>XLR5</value>
+      <footprint>XLR:IO-XLR5-M-EH</footprint>
+      <datasheet> ~</datasheet>
+      <fields>
+        <field name="MFGR">IO Audio Technologies</field>
+        <field name="MPN">IO-XLR5-M-EH</field>
+      </fields>
+      <libsource lib="Connector" part="XLR5" description="XLR Connector, Male or Female, 5 Pins"/>
+      <sheetpath names="/XLR1/" tstamps="/60FAB8E8/"/>
+      <tstamp>60FAE838</tstamp>
+    </comp>
+    <comp ref="C701">
+      <value>0.01uf ceramic</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFGR">Kemet</field>
+        <field name="MPN">10000PF</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/XLR1/" tstamps="/60FAB8E8/"/>
+      <tstamp>60FAE840</tstamp>
+    </comp>
+    <comp ref="R701">
+      <value>R10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/XLR1/" tstamps="/60FAB8E8/"/>
+      <tstamp>60FAE846</tstamp>
+    </comp>
+    <comp ref="D701">
+      <value>D</value>
+      <footprint>Diode_THT:D_DO-15_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFGR">Littelfuse</field>
+        <field name="MPN">SA5.0A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/XLR1/" tstamps="/60FAB8E8/"/>
+      <tstamp>60FAE84E</tstamp>
+    </comp>
+    <comp ref="POWER801">
+      <value>24V_input</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFGR">Phoenix</field>
+        <field name="MPN">1729128</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/OutDir/" tstamps="/60F9F677/"/>
+      <tstamp>60F9E443</tstamp>
+    </comp>
+    <comp ref="D801">
+      <value>D</value>
+      <footprint>Diode_THT:D_DO-15_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFGR">Littelfuse</field>
+        <field name="MPN">SA5.0A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/OutDir/" tstamps="/60F9F677/"/>
+      <tstamp>60F9E453</tstamp>
+    </comp>
+    <comp ref="OUT501">
+      <value>24V_input</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFGR">Phoenix</field>
+        <field name="MPN">1729128</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/OutEnable/" tstamps="/60F9CBE2/"/>
+      <tstamp>60F9E443</tstamp>
+    </comp>
+    <comp ref="D901">
+      <value>D</value>
+      <footprint>Diode_THT:D_DO-15_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFGR">Littelfuse</field>
+        <field name="MPN">SA5.0A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/OutEnable/" tstamps="/60F9CBE2/"/>
+      <tstamp>60F9E453</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x03">
+      <description>Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x05">
+      <description>Generic screw terminal, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x05</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="XLR5">
+      <description>XLR Connector, Male or Female, 5 Pins</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>XLR*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">XLR5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P3" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Isolator" part="4N25">
+      <aliases>
+        <alias>4N26</alias>
+        <alias>TIL111</alias>
+        <alias>4N27</alias>
+        <alias>4N28</alias>
+        <alias>4N35</alias>
+        <alias>4N36</alias>
+        <alias>4N37</alias>
+      </aliases>
+      <description>DC Optocoupler Base Connected, Vce 30V, CTR 20%, Viso 2500V, DIP6</description>
+      <docs>https://www.vishay.com/docs/83725/4n25.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">4N25</field>
+        <field name="Footprint">Package_DIP:DIP-6_W7.62mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="NC" type="NotConnected"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="Jumper_3_Bridged12">
+      <description>Jumper, 3-pole, pins 1+2 closed/bridged</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jumper*Bridged12*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_3_Bridged12</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="C" type="input"/>
+        <pin num="3" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="L7805">
+      <aliases>
+        <alias>L7806</alias>
+        <alias>L7808</alias>
+        <alias>L7885</alias>
+        <alias>L7809</alias>
+        <alias>L7812</alias>
+        <alias>L7815</alias>
+        <alias>L7818</alias>
+        <alias>L7824</alias>
+      </aliases>
+      <description>Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252</description>
+      <docs>http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</docs>
+      <footprints>
+        <fp>TO?252*</fp>
+        <fp>TO?263*</fp>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">L7805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="arduino" part="Arduino_Micro_Socket">
+      <description>Socket for Arduino Micro</description>
+      <docs>https://store.arduino.cc/arduino-micro</docs>
+      <footprints>
+        <fp>Arduino_Micro_Socket</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">XA</field>
+        <field name="Value">Arduino_Micro_Socket</field>
+      </fields>
+      <pins>
+        <pin num="5V" name="5V" type="power_in"/>
+        <pin num="3V3" name="3.3V" type="power_in"/>
+        <pin num="A0" name="A0" type="BiDi"/>
+        <pin num="A1" name="A1" type="BiDi"/>
+        <pin num="A2" name="A2" type="BiDi"/>
+        <pin num="A3" name="A3" type="BiDi"/>
+        <pin num="A4" name="A4" type="BiDi"/>
+        <pin num="A5" name="A5" type="BiDi"/>
+        <pin num="AREF" name="AREF" type="input"/>
+        <pin num="D0" name="D0_RX0" type="BiDi"/>
+        <pin num="D1" name="D1_TX0" type="BiDi"/>
+        <pin num="D2" name="D2_SDA" type="BiDi"/>
+        <pin num="D3" name="D3_SCL" type="BiDi"/>
+        <pin num="D4" name="D4" type="BiDi"/>
+        <pin num="D5" name="D5" type="BiDi"/>
+        <pin num="D6" name="D6" type="BiDi"/>
+        <pin num="D7" name="D7_INT4" type="BiDi"/>
+        <pin num="D8" name="D8" type="BiDi"/>
+        <pin num="D9" name="D9" type="BiDi"/>
+        <pin num="D10" name="D10" type="BiDi"/>
+        <pin num="D11" name="D11" type="BiDi"/>
+        <pin num="D12" name="D12" type="BiDi"/>
+        <pin num="D13" name="D13" type="BiDi"/>
+        <pin num="GND1" name="GND" type="power_in"/>
+        <pin num="GND2" name="GND" type="power_in"/>
+        <pin num="MISO" name="SPI_MISO" type="input"/>
+        <pin num="MOSI" name="SPI_MOSI" type="output"/>
+        <pin num="RST1" name="RESET" type="openCol"/>
+        <pin num="RST2" name="RESET" type="openCol"/>
+        <pin num="SCK" name="SPI_SCK" type="output"/>
+        <pin num="SS" name="SPI_CS" type="BiDi"/>
+        <pin num="VIN" name="VIN" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/Library/Application Support/kicad5/library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Library/Application Support/kicad5/library/Device.lib</uri>
+    </library>
+    <library logical="Isolator">
+      <uri>/Library/Application Support/kicad5/library/Isolator.lib</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>/Library/Application Support/kicad5/library/Jumper.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/Library/Application Support/kicad5/library/Mechanical.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/Library/Application Support/kicad5/library/Regulator_Linear.lib</uri>
+    </library>
+    <library logical="arduino">
+      <uri>/Users/jensa/Dropbox/Kunder/Dragan/kontroller/kontroller/arduino.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="POWER24" pin="2"/>
+      <node ref="C110" pin="2"/>
+      <node ref="J701" pin="5"/>
+      <node ref="C701" pin="2"/>
+      <node ref="R701" pin="2"/>
+      <node ref="D701" pin="2"/>
+      <node ref="C106" pin="2"/>
+      <node ref="U102" pin="2"/>
+      <node ref="C107" pin="2"/>
+      <node ref="C108" pin="2"/>
+      <node ref="C109" pin="2"/>
+      <node ref="INDEX1" pin="1"/>
+    </net>
+    <net code="2" name="+24V">
+      <node ref="POWER24" pin="1"/>
+      <node ref="C110" pin="1"/>
+      <node ref="J701" pin="4"/>
+      <node ref="U101" pin="1"/>
+      <node ref="INDEX1" pin="3"/>
+      <node ref="C106" pin="1"/>
+      <node ref="C107" pin="1"/>
+      <node ref="C108" pin="1"/>
+      <node ref="C109" pin="1"/>
+      <node ref="U102" pin="1"/>
+    </net>
+    <net code="3" name="Net-(INDEX1-Pad2)">
+      <node ref="R102" pin="2"/>
+      <node ref="INDEX1" pin="2"/>
+    </net>
+    <net code="4" name="Net-(R102-Pad1)">
+      <node ref="R102" pin="1"/>
+      <node ref="U101" pin="2"/>
+    </net>
+    <net code="5" name="Net-(U101-Pad3)">
+      <node ref="U101" pin="3"/>
+    </net>
+    <net code="6" name="Net-(U101-Pad6)">
+      <node ref="U101" pin="6"/>
+    </net>
+    <net code="7" name="A0">
+      <node ref="XA101" pin="A0"/>
+      <node ref="LinearActuator101" pin="3"/>
+    </net>
+    <net code="8" name="Net-(XA101-PadD0)">
+      <node ref="XA101" pin="D0"/>
+    </net>
+    <net code="9" name="A1">
+      <node ref="XA101" pin="A1"/>
+      <node ref="LinearActuator101" pin="2"/>
+    </net>
+    <net code="10" name="Net-(XA101-PadD1)">
+      <node ref="XA101" pin="D1"/>
+    </net>
+    <net code="11" name="Net-(XA101-PadA2)">
+      <node ref="XA101" pin="A2"/>
+    </net>
+    <net code="12" name="Net-(XA101-PadA3)">
+      <node ref="XA101" pin="A3"/>
+    </net>
+    <net code="13" name="Net-(XA101-PadA4)">
+      <node ref="XA101" pin="A4"/>
+    </net>
+    <net code="14" name="Net-(XA101-PadA5)">
+      <node ref="XA101" pin="A5"/>
+    </net>
+    <net code="15" name="Net-(XA101-PadD6)">
+      <node ref="XA101" pin="D6"/>
+    </net>
+    <net code="16" name="Net-(XA101-PadD7)">
+      <node ref="XA101" pin="D7"/>
+    </net>
+    <net code="17" name="Net-(XA101-PadD9)">
+      <node ref="XA101" pin="D9"/>
+    </net>
+    <net code="18" name="Net-(XA101-PadSS)">
+      <node ref="XA101" pin="SS"/>
+    </net>
+    <net code="19" name="Net-(XA101-Pad5V)">
+      <node ref="XA101" pin="5V"/>
+    </net>
+    <net code="20" name="Net-(XA101-PadD10)">
+      <node ref="XA101" pin="D10"/>
+    </net>
+    <net code="21" name="Net-(XA101-PadD11)">
+      <node ref="XA101" pin="D11"/>
+    </net>
+    <net code="22" name="Net-(XA101-PadD12)">
+      <node ref="XA101" pin="D12"/>
+    </net>
+    <net code="23" name="D13">
+      <node ref="XA101" pin="D13"/>
+      <node ref="LinearActuator101" pin="4"/>
+    </net>
+    <net code="24" name="Net-(XA101-Pad3V3)">
+      <node ref="XA101" pin="3V3"/>
+    </net>
+    <net code="25" name="Net-(XA101-PadSCK)">
+      <node ref="XA101" pin="SCK"/>
+    </net>
+    <net code="26" name="Net-(XA101-PadRST1)">
+      <node ref="XA101" pin="RST1"/>
+    </net>
+    <net code="27" name="Net-(XA101-PadRST2)">
+      <node ref="XA101" pin="RST2"/>
+    </net>
+    <net code="28" name="Net-(XA101-PadAREF)">
+      <node ref="XA101" pin="AREF"/>
+    </net>
+    <net code="29" name="Net-(XA101-PadMOSI)">
+      <node ref="XA101" pin="MOSI"/>
+    </net>
+    <net code="30" name="Net-(XA101-PadMISO)">
+      <node ref="XA101" pin="MISO"/>
+    </net>
+    <net code="31" name="D8">
+      <node ref="XA101" pin="D8"/>
+      <node ref="U101" pin="5"/>
+      <node ref="R101" pin="2"/>
+    </net>
+    <net code="32" name="D3">
+      <node ref="C701" pin="1"/>
+      <node ref="XA101" pin="D3"/>
+      <node ref="R701" pin="1"/>
+      <node ref="D701" pin="1"/>
+      <node ref="J701" pin="3"/>
+    </net>
+    <net code="33" name="+5V">
+      <node ref="POWER5" pin="1"/>
+      <node ref="C105" pin="1"/>
+      <node ref="C101" pin="1"/>
+      <node ref="JP101" pin="1"/>
+      <node ref="C104" pin="1"/>
+      <node ref="R101" pin="1"/>
+      <node ref="J701" pin="2"/>
+      <node ref="C103" pin="1"/>
+      <node ref="LinearActuator101" pin="1"/>
+      <node ref="C102" pin="1"/>
+    </net>
+    <net code="34" name="GNDS">
+      <node ref="C102" pin="2"/>
+      <node ref="LinearActuator101" pin="5"/>
+      <node ref="C103" pin="2"/>
+      <node ref="POWER5" pin="2"/>
+      <node ref="C105" pin="2"/>
+      <node ref="U101" pin="4"/>
+      <node ref="C101" pin="2"/>
+      <node ref="D901" pin="2"/>
+      <node ref="OUT501" pin="1"/>
+      <node ref="J701" pin="1"/>
+      <node ref="XA101" pin="GND1"/>
+      <node ref="D801" pin="2"/>
+      <node ref="XA101" pin="GND2"/>
+      <node ref="POWER801" pin="1"/>
+      <node ref="OUT201" pin="1"/>
+      <node ref="C104" pin="2"/>
+      <node ref="D201" pin="2"/>
+    </net>
+    <net code="35" name="D2">
+      <node ref="XA101" pin="D2"/>
+      <node ref="OUT501" pin="2"/>
+      <node ref="D901" pin="1"/>
+    </net>
+    <net code="36" name="D5">
+      <node ref="D201" pin="1"/>
+      <node ref="OUT201" pin="2"/>
+      <node ref="XA101" pin="D5"/>
+    </net>
+    <net code="37" name="D4">
+      <node ref="POWER801" pin="2"/>
+      <node ref="D801" pin="1"/>
+      <node ref="XA101" pin="D4"/>
+    </net>
+    <net code="38" name="Net-(JP101-Pad2)">
+      <node ref="XA101" pin="VIN"/>
+      <node ref="JP101" pin="2"/>
+    </net>
+    <net code="39" name="Net-(JP101-Pad3)">
+      <node ref="U102" pin="3"/>
+      <node ref="JP101" pin="3"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,221 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:XLR5 J?
+U 1 1 60FAE838
+P 1500 1450
+AR Path="/60FAE838" Ref="J?"  Part="1" 
+AR Path="/60FAB8E8/60FAE838" Ref="J701"  Part="1" 
+AR Path="/60FAFCC5/60FAE838" Ref="J301"  Part="1" 
+AR Path="/60FB032B/60FAE838" Ref="J401"  Part="1" 
+AR Path="/60FB09BB/60FAE838" Ref="J501"  Part="1" 
+AR Path="/60FB105E/60FAE838" Ref="J601"  Part="1" 
+F 0 "J701" V 1546 1678 50  0000 L CNN
+F 1 "XLR5" V 1455 1678 50  0000 L CNN
+F 2 "XLR:IO-XLR5-M-EH" H 1500 1450 50  0001 C CNN
+F 3 " ~" H 1500 1450 50  0001 C CNN
+F 4 "IO Audio Technologies" H 1500 1450 50  0001 C CNN "MFGR"
+F 5 "IO-XLR5-F-EH" H 1500 1450 50  0001 C CNN "MPN"
+	1    1500 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60FAE840
+P 2650 1700
+AR Path="/60FAE840" Ref="C?"  Part="1" 
+AR Path="/60FAB8E8/60FAE840" Ref="C701"  Part="1" 
+AR Path="/60FAFCC5/60FAE840" Ref="C301"  Part="1" 
+AR Path="/60FB032B/60FAE840" Ref="C401"  Part="1" 
+AR Path="/60FB09BB/60FAE840" Ref="C501"  Part="1" 
+AR Path="/60FB105E/60FAE840" Ref="C601"  Part="1" 
+F 0 "C701" H 2765 1746 50  0000 L CNN
+F 1 "0.01uf ceramic" H 2450 1450 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 2688 1550 50  0001 C CNN
+F 3 "~" H 2650 1700 50  0001 C CNN
+F 4 "Kemet" H 2650 1700 50  0001 C CNN "MFGR"
+F 5 "10000PF" H 2650 1700 50  0001 C CNN "MPN"
+	1    2650 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60FAE846
+P 2300 1700
+AR Path="/60FAE846" Ref="R?"  Part="1" 
+AR Path="/60FAB8E8/60FAE846" Ref="R701"  Part="1" 
+AR Path="/60FAFCC5/60FAE846" Ref="R301"  Part="1" 
+AR Path="/60FB032B/60FAE846" Ref="R401"  Part="1" 
+AR Path="/60FB09BB/60FAE846" Ref="R501"  Part="1" 
+AR Path="/60FB105E/60FAE846" Ref="R601"  Part="1" 
+F 0 "R701" H 2370 1746 50  0000 L CNN
+F 1 "R10k" H 2370 1655 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 2230 1700 50  0001 C CNN
+F 3 "~" H 2300 1700 50  0001 C CNN
+	1    2300 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 60FAE84E
+P 2050 1700
+AR Path="/60FAE84E" Ref="D?"  Part="1" 
+AR Path="/60FAB8E8/60FAE84E" Ref="D701"  Part="1" 
+AR Path="/60FAFCC5/60FAE84E" Ref="D301"  Part="1" 
+AR Path="/60FB032B/60FAE84E" Ref="D401"  Part="1" 
+AR Path="/60FB09BB/60FAE84E" Ref="D501"  Part="1" 
+AR Path="/60FB105E/60FAE84E" Ref="D601"  Part="1" 
+F 0 "D701" V 2004 1779 50  0000 L CNN
+F 1 "D" V 2095 1779 50  0000 L CNN
+F 2 "Diode_THT:D_DO-15_P10.16mm_Horizontal" H 2050 1700 50  0001 C CNN
+F 3 "~" H 2050 1700 50  0001 C CNN
+F 4 "Littelfuse" H 2050 1700 50  0001 C CNN "MFGR"
+F 5 "SA5.0A" H 2050 1700 50  0001 C CNN "MPN"
+	1    2050 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60FAE854
+P 2300 2100
+AR Path="/60FAE854" Ref="#PWR?"  Part="1" 
+AR Path="/60FAB8E8/60FAE854" Ref="#PWR0131"  Part="1" 
+AR Path="/60FAFCC5/60FAE854" Ref="#PWR0111"  Part="1" 
+AR Path="/60FB032B/60FAE854" Ref="#PWR0116"  Part="1" 
+AR Path="/60FB09BB/60FAE854" Ref="#PWR0121"  Part="1" 
+AR Path="/60FB105E/60FAE854" Ref="#PWR0126"  Part="1" 
+F 0 "#PWR0131" H 2300 1850 50  0001 C CNN
+F 1 "GND" H 2305 1927 50  0000 C CNN
+F 2 "" H 2300 2100 50  0001 C CNN
+F 3 "" H 2300 2100 50  0001 C CNN
+	1    2300 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 1850 2650 2000
+Wire Wire Line
+	2650 2000 2300 2000
+Wire Wire Line
+	2300 2000 2300 2100
+Wire Wire Line
+	2300 2000 2300 1850
+Connection ~ 2300 2000
+Wire Wire Line
+	2050 1850 2050 2000
+Wire Wire Line
+	2050 2000 2300 2000
+Wire Wire Line
+	3200 1450 2650 1450
+Wire Wire Line
+	2650 1450 2650 1550
+Wire Wire Line
+	2650 1450 2300 1450
+Wire Wire Line
+	2300 1450 2300 1550
+Connection ~ 2650 1450
+Wire Wire Line
+	2300 1450 2050 1450
+Wire Wire Line
+	2050 1450 2050 1550
+Connection ~ 2300 1450
+Wire Wire Line
+	1800 1450 2050 1450
+Connection ~ 2050 1450
+$Comp
+L power:GND #PWR?
+U 1 1 60FAE86B
+P 1250 1000
+AR Path="/60FAE86B" Ref="#PWR?"  Part="1" 
+AR Path="/60FAB8E8/60FAE86B" Ref="#PWR0132"  Part="1" 
+AR Path="/60FAFCC5/60FAE86B" Ref="#PWR0112"  Part="1" 
+AR Path="/60FB032B/60FAE86B" Ref="#PWR0117"  Part="1" 
+AR Path="/60FB09BB/60FAE86B" Ref="#PWR0122"  Part="1" 
+AR Path="/60FB105E/60FAE86B" Ref="#PWR0127"  Part="1" 
+F 0 "#PWR0132" H 1250 750 50  0001 C CNN
+F 1 "GND" H 1255 827 50  0000 C CNN
+F 2 "" H 1250 1000 50  0001 C CNN
+F 3 "" H 1250 1000 50  0001 C CNN
+	1    1250 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 1150 1500 1000
+Wire Wire Line
+	1500 1000 1250 1000
+$Comp
+L power:+5V #PWR?
+U 1 1 60FAE873
+P 1800 1750
+AR Path="/60FAE873" Ref="#PWR?"  Part="1" 
+AR Path="/60FAB8E8/60FAE873" Ref="#PWR0133"  Part="1" 
+AR Path="/60FAFCC5/60FAE873" Ref="#PWR0113"  Part="1" 
+AR Path="/60FB032B/60FAE873" Ref="#PWR0118"  Part="1" 
+AR Path="/60FB09BB/60FAE873" Ref="#PWR0123"  Part="1" 
+AR Path="/60FB105E/60FAE873" Ref="#PWR0128"  Part="1" 
+F 0 "#PWR0133" H 1800 1600 50  0001 C CNN
+F 1 "+5V" H 1815 1923 50  0000 C CNN
+F 2 "" H 1800 1750 50  0001 C CNN
+F 3 "" H 1800 1750 50  0001 C CNN
+	1    1800 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+24V #PWR?
+U 1 1 60FAE879
+P 1600 1000
+AR Path="/60FAE879" Ref="#PWR?"  Part="1" 
+AR Path="/60FAB8E8/60FAE879" Ref="#PWR0134"  Part="1" 
+AR Path="/60FAFCC5/60FAE879" Ref="#PWR0114"  Part="1" 
+AR Path="/60FB032B/60FAE879" Ref="#PWR0119"  Part="1" 
+AR Path="/60FB09BB/60FAE879" Ref="#PWR0124"  Part="1" 
+AR Path="/60FB105E/60FAE879" Ref="#PWR0129"  Part="1" 
+F 0 "#PWR0134" H 1600 850 50  0001 C CNN
+F 1 "+24V" H 1615 1173 50  0000 C CNN
+F 2 "" H 1600 1000 50  0001 C CNN
+F 3 "" H 1600 1000 50  0001 C CNN
+	1    1600 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDS #PWR?
+U 1 1 60FAE87F
+P 1500 1900
+AR Path="/60FAE87F" Ref="#PWR?"  Part="1" 
+AR Path="/60FAB8E8/60FAE87F" Ref="#PWR0135"  Part="1" 
+AR Path="/60FAFCC5/60FAE87F" Ref="#PWR0115"  Part="1" 
+AR Path="/60FB032B/60FAE87F" Ref="#PWR0120"  Part="1" 
+AR Path="/60FB09BB/60FAE87F" Ref="#PWR0125"  Part="1" 
+AR Path="/60FB105E/60FAE87F" Ref="#PWR0130"  Part="1" 
+F 0 "#PWR0135" H 1500 1650 50  0001 C CNN
+F 1 "GNDS" H 1505 1727 50  0000 C CNN
+F 2 "" H 1500 1900 50  0001 C CNN
+F 3 "" H 1500 1900 50  0001 C CNN
+	1    1500 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 1150 1600 1000
+Wire Wire Line
+	1600 1750 1600 1900
+Wire Wire Line
+	1600 1900 1800 1900
+Wire Wire Line
+	1800 1900 1800 1750
+Wire Wire Line
+	1500 1900 1500 1750
+Text HLabel 3200 1450 2    50   Input ~ 0
+Signal
+$EndSCHEMATC

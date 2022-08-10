@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name XLR)(type KiCad)(uri /Users/jensa/Dropbox/Kunder/Dragan/kontroller/kontroller/XLR.pretty)(options "")(descr ""))
+  (lib (name images)(type KiCad)(uri ${KIPRJMOD}/images.pretty)(options "")(descr ""))
+)
