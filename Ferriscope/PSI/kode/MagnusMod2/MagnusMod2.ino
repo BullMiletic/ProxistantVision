@@ -65,7 +65,7 @@ volatile bool g_has_seen_index = 0; // Whether we have seen the index since boot
 // The position where the last rising edge of the index sensor occured.
 volatile uint16_t g_index_position = 0;
 // Offset between index and home position
-const uint16_t g_home_offset = -1090 + 200 * 16; // Clockwise
+const uint16_t g_home_offset = -2685 + 200 * 16; // Ferris #2 uses -2685, Ferris #3 uses -2220 as base
 
 float max_delta_time = 0;
 
