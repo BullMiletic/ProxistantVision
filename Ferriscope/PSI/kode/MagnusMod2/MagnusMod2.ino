@@ -43,7 +43,7 @@
 // (note hardwired solvering on back of PCB, bridging pins 7&8!)
 #define MOTOR_INDEX_PIN 7 // Input, signals shaft index
 #define MOTOR_INDEX_PIN_AVR PE6
-
+  
 const int ledPin = LED_BUILTIN;
 
 // Serial terminal verbosity level.
@@ -65,7 +65,8 @@ volatile bool g_has_seen_index = 0; // Whether we have seen the index since boot
 // The position where the last rising edge of the index sensor occured.
 volatile uint16_t g_index_position = 0;
 // Offset between index and home position
-const uint16_t g_home_offset = -2685 + 200 * 16; // Ferris #2 uses -2685, Ferris #3 uses -2220 as base
+const uint16_t g_home_offset = -2220 + 200 * 16;
+// Ferris #2 uses 515 (eller -2685), Ferris #3 uses -2220 as base
 
 float max_delta_time = 0;
 
